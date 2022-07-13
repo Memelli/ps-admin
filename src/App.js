@@ -1,8 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-full flex flex-row">
+      <Navbar />
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
